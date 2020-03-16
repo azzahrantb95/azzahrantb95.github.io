@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,UAEE,cAAe,CACf,eAAgB,CAChB,iBAAkB,CAClB,QACF","file":"main.8b7b808d.chunk.css","sourcesContent":["html,\r\nbody {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n}\r\n"]}

@@ -1,0 +1,50 @@
+$primary : #fff;
+
+.niomic-card {
+    margin: 20px;
+    text-decoration: none;
+    width: 90%;
+    height: 100%;
+    display: block;
+    background-color: $primary;
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+    img {
+        width: 120px;
+        position: relative;
+        flex: none;
+        float: left;
+        margin: 0 auto;
+    }
+
+    span {
+        display: block;
+        margin-left: max(130px);
+    }
+
+
+}
+
+.bg-relative {
+    position: relative;
+    display: inline-block;
+
+    .niomic-badge {
+        position: absolute;
+        width: 30px;
+        padding: 5px;
+        left: -40px;
+        right: 0px;
+        top: 39px;
+        z-index: 1;
+        border: 0px;
+        font-size: 13px;
+        background-color: #d8cfbd;
+        border-radius: 5px;
+        text-align: center;
+        color: #fff
+    }
+}
